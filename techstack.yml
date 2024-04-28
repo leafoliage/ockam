@@ -1,0 +1,411 @@
+repo_name: leafoliage/ockam
+report_id: b6c7692d6901b247855b8446a8d94bf0
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-28T04:03:13+00:00'
+requested_by: SanjoDeundiak
+provider: github
+branch: develop
+detected_tools_count: 32
+tools:
+- name: Elixir
+  description: Dynamic, functional language designed for building scalable and maintainable
+    applications
+  website_url: http://elixir-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1974/drop.png
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: Erlang
+  description: A programming language used to build massively scalable soft real-time
+    systems with requirements on high availability
+  website_url: http://www.erlang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1004/cbdf77412da183e43d41c0c0f9a7005a.jpeg
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_node/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_node/Cargo.toml
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2021-01-30 01:00:38.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_vault_aws/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_vault_aws/Cargo.toml
+  last_updated_by: etorreborre
+  last_updated_on: 2023-05-04 15:05:53.000000000 Z
+- name: Rust
+  description: A safe, concurrent, practical language
+  website_url: http://www.rust-lang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_api/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_api/Cargo.toml
+  last_updated_by: Toralf Wittner
+  last_updated_on: 2022-05-18 15:40:45.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/typescript/ockam/ockam_command/package.json
+  detection_source: implementations/typescript/ockam/ockam_command/package.json
+  last_updated_by: Glenn Gillen
+  last_updated_on: 2023-05-16 11:47:18.000000000 Z
+- name: Serde
+  description: Serialization framework for Rust
+  website_url: https://serde.rs
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/11028/no-img-open-source.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/examples/rust/file_transfer/Cargo.toml
+  detection_source: examples/rust/file_transfer/Cargo.toml
+  last_updated_by: Adrian Benavides
+  last_updated_on: 2023-04-10 10:04:56.000000000 Z
+- name: Tokio
+  description: Runtime for writing reliable asynchronous applications with Rust
+  website_url: https://tokio.rs/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Concurrency Frameworks
+  image_url: https://img.stackshare.io/service/12187/bC40df3r_400x400.jpg
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/examples/rust/file_transfer/Cargo.toml
+  detection_source: examples/rust/file_transfer/Cargo.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-29 19:01:09.000000000 Z
+- name: Backtrace
+  description: Real-time automated error detection, response and analysis for enterprise-grade
+    software
+  website_url: http://backtrace.io
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/4920/QOo-sB4D_400x400.jpg
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_core/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_core/Cargo.toml
+  last_updated_by: Adrian Benavides
+  last_updated_on: 2023-04-10 10:04:56.000000000 Z
+- name: CMake
+  description: An open-source system that manages the build process
+  website_url: http://www.cmake.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/elixir/ockam/ockam_vault_software/native/CMakeLists.txt
+  detection_source: implementations/elixir/ockam/ockam_vault_software/native/CMakeLists.txt
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2020-08-31 06:45:06.000000000 Z
+- name: Cowboy
+  description: Small, fast, modular HTTP server written in Erlang.
+  website_url: https://github.com/ninenines/cowboy
+  version: 2.10.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2738/1166740.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/elixir/ockam/ockam_services/mix.exs
+  detection_source: implementations/elixir/ockam/ockam_services/mix.exs
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-03 10:34:29.000000000 Z
+- name: Credo
+  description: A static code analysis tool for the Elixir language
+  website_url: http://credo-ci.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5767/logo-462574d6fafd52114ceb5556a09cdf5a.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/elixir/ockam/ockam/mix.exs
+  detection_source: implementations/elixir/ockam/ockam/mix.exs
+  last_updated_by: v0idpwn
+  last_updated_on: 2022-01-08 09:38:35.000000000 Z
+- name: Ctop
+  description: Commandline monitoring for containers
+  website_url: http://ctop.sh/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/6731/favicon.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/examples/rust/file_transfer/Cargo.toml
+  detection_source: examples/rust/file_transfer/Cargo.toml
+  last_updated_by: dvermd
+  last_updated_on: 2021-11-23 22:18:42.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/.github/workflows/all.yml
+  detection_source: ".github/workflows/all.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-04-13 18:15:03.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2021-01-15 01:25:27.000000000 Z
+- name: Hex
+  description: Package manager for the Erlang ecosystem
+  website_url: https://hex.pm/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/5210/6621265.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/examples/rust/get_started/Cargo.toml
+  detection_source: examples/rust/get_started/Cargo.toml
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2021-04-13 12:43:21.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 29.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/typescript/package.json
+  detection_source: implementations/typescript/package.json
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2021-10-31 21:03:27.000000000 Z
+- name: Nix
+  description: A package manager for Linux and other Unix systems
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_api/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_api/Cargo.toml
+  last_updated_by: Toralf Wittner
+  last_updated_on: 2022-05-18 15:40:45.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_api/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_api/Cargo.toml
+  last_updated_by: Toralf Wittner
+  last_updated_on: 2022-05-18 15:40:45.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/typescript/package.json
+  detection_source: implementations/typescript/package.json
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2023-05-30 06:52:56.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_node/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_node/Cargo.toml
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2021-01-30 01:00:38.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/rust/ockam/ockam_vault_aws/Cargo.toml
+  detection_source: implementations/rust/ockam/ockam_vault_aws/Cargo.toml
+  last_updated_by: etorreborre
+  last_updated_on: 2023-05-04 15:05:53.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/typescript/package.json
+  detection_source: implementations/typescript/package.json
+  last_updated_by: Mrinal Wadhwa
+  last_updated_on: 2021-10-31 21:03:27.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/leafoliage/ockam
+  detection_source: Repo Metadata
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/typescript/package.json
+  detection_source: implementations/typescript/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-06 04:06:26.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/typescript/ockam/ockam_command/package.json
+  detection_source: implementations/typescript/ockam/ockam_command/package.json
+  last_updated_by: Glenn Gillen
+  last_updated_on: 2023-05-16 11:47:18.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 29.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/leafoliage/ockam/blob/develop/implementations/typescript/package.json
+  detection_source: implementations/typescript/package.json
+  last_updated_by: Glenn Gillen
+  last_updated_on: 2023-05-16 11:47:18.000000000 Z
